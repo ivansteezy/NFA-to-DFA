@@ -12,4 +12,5 @@ MOC_DIR += GeneratedFiles/$(ConfigurationName)
 OBJECTS_DIR += debug
 UI_DIR += GeneratedFiles
 RCC_DIR += .
+QT += quick qml widgets
 include(NFAtoDFA.pri)
